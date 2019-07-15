@@ -8,6 +8,7 @@
   <name>SimpleCustomerApp</name>
   <url>http://maven.apache.org</url>
   <build>
+  <plugins>
   <plugin>
    <artifactId>maven-war-plugin</artifactId>
       <version>3.0.0</version>
@@ -15,6 +16,7 @@
       <failOnMissingWebXml>false</failOnMissingWebXml>
    </configuration>
   </plugin>
+  </plugins>
    </build>
 </project>
 
